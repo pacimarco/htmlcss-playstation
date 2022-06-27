@@ -1,0 +1,29 @@
+:root{
+    --background-color-h-top: #000;
+}
+body{
+    font-family: sans-serif;
+    max-width: 1420px;
+
+}
+/* Header */
+.ms_header_top{
+    background-color: var(--background-color-h-top);
+}
+
+/*main*/
+.sct_1_jumbo{
+    height: 580px;
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+}
+.sct_1_jumbo img{
+    width: 100%;
+ 
+   
+}
+.sct_2_cards img{
+    width: 100%;
+}
+
