@@ -13,13 +13,14 @@ body{
 
 /*main*/
 .sct_1_jumbo{
-    height: 580px;
-    width: 100%;
+    
+    
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
 }
-.sct_1_jumbo img{
-    width: 100%;
+.sct_1_jumbo .row{
+    padding-top: 200px;
  
    
 }
@@ -29,6 +30,24 @@ body{
 .section_4 img{
     width: 100%;
 }
+
+.section_4 .row .ms_col_text{
+    padding-top: 150px;
+}
 .section_5 img{
     width:50%;
 }
+
+.section_6{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    
+    background-size: cover;
+}
+
+
+
+.section_8 img{
+    width: 100%;
+}
+
