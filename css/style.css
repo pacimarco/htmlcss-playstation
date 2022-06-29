@@ -12,6 +12,9 @@ body{
 }
 
 /*main*/
+main{
+    margin-top: 125px;
+}
 .sct_1_jumbo{
     
     
@@ -21,8 +24,6 @@ body{
 }
 .sct_1_jumbo .row{
     padding-top: 200px;
- 
-   
 }
 .sct_2_cards img{
     width: 100%;
@@ -31,7 +32,14 @@ body{
     width: 100%;
 }
 
+.active{
+    border-bottom: 2px solid blue;
+    
+}
 
+.active_h:hover{
+    border-bottom: 2px solid blue;
+}
 
 
 .section_6{
@@ -57,11 +65,33 @@ footer{
 
 footer ul{
     list-style: none;
-   
 }
 
 footer ul li a{
     color: white;
     text-decoration: none;
     list-style: none;
+}
+
+header button:hover{
+    outline:1px solid black ;
+    outline-offset: 2px;
+    border: 1px solid black;
+}
+
+.b_red:hover{
+    outline:1px solid red ;
+    outline-offset: 2px;
+    border: 1px solid red;
+}
+
+.b_blue:hover{
+    outline:1px solid blue ;
+    outline-offset: 2px;
+    border: 1px solid blue;
+}
+.b_white:hover{
+    outline:1px solid white ;
+    outline-offset: 2px;
+    border: 1px solid white;
 }
