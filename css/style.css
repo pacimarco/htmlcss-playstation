@@ -31,12 +31,8 @@ body{
     width: 100%;
 }
 
-.section_4 .row .ms_col_text{
-    padding-top: 150px;
-}
-.section_5 img{
-    width:50%;
-}
+
+
 
 .section_6{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -51,3 +47,21 @@ body{
     width: 100%;
 }
 
+.section_11{
+    background-color: rgb(17, 21, 45);
+}
+footer{
+    background-color: rgb(2, 47, 138);
+    font-size: 10px;
+}
+
+footer ul{
+    list-style: none;
+   
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}

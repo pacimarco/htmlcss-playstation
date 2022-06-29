@@ -12,7 +12,7 @@
 <body>
     <header class="container-fluid">
         
-        <div class="ms_header_top">
+        <div class="ms_header_top container-fluid">
             <h3 class="text-end text-light p-1">SONY</h3>
         </div>
         <div class="ms_header_bottom">
@@ -91,15 +91,15 @@
           </div>
         </section>
 
-        <section class="section_4">
-          <div class="row">
-            <div class="col-12 col-md ms_col_text mx-4">
+        <section class="section_4 container"> <!--vedere margini ecc dopo align items-->
+          <div class="row align-items-center">
+            <div class="col-12 col-md-5 ms_col_text ">
               <h2>Console PlayStation 5</h2>
               <h4 class="my-4">Sperimenta la nuova generazione di incredibili giochi PlayStation</h4>
               <button type="button" class="btn btn-primary rounded-pill">Maggiori informazioni</button>
             </div>
-            <div class="col-12 col-md">
-              <img src="img/playstation-5-thumb.png" alt="play5">
+            <div class="col-12 col-md-7">
+              <img class="img-fluid" src="img/playstation-5-thumb.png" alt="play5">
               
             </div>
           </div>
@@ -107,33 +107,33 @@
         </section>
 
         <section class="section_5 container"> <!-- da rivedere responsive con col -->
-          <div class="row text-center p-2">
-            <div class="col-4 col-md-2 mx-2">
-              <img src="img/playstation-5-thumb.png" alt="play5">
-              <h4>Console PS5</h4>
+          <div class="row row-cols-3 row-cols-md-5 text-center g-3">
+            <div class="col">
+              <img class="img-fluid" src="img/playstation-5-thumb.png" alt="play5">
+              <h5 class="d-none d-md-block">Console PS5</h5>
             </div>
-            <div class="col-4 col-md-2 mx-2">
-              <img src="img/joypad-thumb.png" alt="dual">
-              <h4>Controller wireless DualSense</h4>
+            <div class="col">
+              <img class="img-fluid" src="img/joypad-thumb.png" alt="dual">
+              <h5 class="d-none d-md-block">Controller wireless DualSense</h5>
             </div>
-            <div class="col-4 col-md-2 mx-2">
-              <img src="img/headset-thumb.png" alt="headphone">
-              <h4>Cuffie wireless con microfono PULSE 3</h4>
+            <div class="col">
+              <img class="img-fluid" src="img/headset-thumb.png" alt="headphone">
+              <h5 class="d-none d-md-block">Cuffie wireless con microfono PULSE 3</h5>
             </div>
-            <div class="col-4 col-md-2 mx-2">
-              <img src="img/remote-thumb.png" alt="remote">
-              <h4>Telecomando Media</h4>
+            <div class="col">
+              <img class="img-fluid" src="img/remote-thumb.png" alt="remote">
+              <h5 class="d-none d-md-block">Telecomando Media</h5>
             </div>
-            <div class="col-4 col-md-2 mx-2">
-              <img src="img/camera-thumb.jpg" alt="cam">
-              <h4>Telecamera HD</h4>
+            <div class="col">
+              <img class="img-fluid" src="img/camera-thumb.jpg" alt="cam">
+              <h5 class="d-none d-md-block">Telecamera HD</h5>
             </div>
 
           </div>
 
         </section>
 
-        <section class="section_6">
+        <section class="section_6 mt-3">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xxl-3 text-light">
@@ -267,8 +267,20 @@
 
         </section>
 
-        <section class="section_11">
-          <!-- come sezione 9 con d-none-->
+        <section class="section_11 mt-3">
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col col-lg-6">
+                <img class="w-50 d-inline-block my-5" src="img/ps-now-logo-two-column.png" alt="plus"> 
+                <p class="text-light mx-2 my-5">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                <button type="button" class="btn text-dark bg-light mb-5 mt-5 btn-outline-primary rounded-pill">Esplora PlayStation Now</button>
+              </div>
+              <div class="d-xs-none d-sm-none d-lg-inline-block col-lg-6">
+                <img class="img-fluid" src="img/ps-now-april-featured-image-block.png" alt="">
+              </div>
+            </div>
+          </div>
         </section>
 
         <section class="section_12 mt-5">
@@ -296,7 +308,53 @@
 
     </main>
    
-    <footer>
+    <footer class="mt-5 py-3">    <!--rivedere col responsive non rispondono-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-xxl-6"><img class="img-fluid my-4 px-3" src="img/ps-footer.svg" alt="footer">
+            <h6 class="text-light mx-3 mb-4">Country / Region: Italy</h6>
+          </div>
+          
+          <div class="col-12 col-md-4 col-xxl-2">
+            <ul>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-12 col-md-4 col-xxl-2">
+            <ul>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-12 col-md-4 col-xxl-2">
+            <ul>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              <li><a href="#">Link footer n</a></li>
+              
+            </ul>
+          </div>
+  
+          <div class="col-2 my-3">
+            <img class="img-fluid" src="img/sie-logo.svg" alt="sie-logo">
+          </div>
+          <div class="col-12">
+            <p class="text-light">Website 2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietati. Tutti i diritti riservati. <a class="text-light text-decoration-light" href="#">Maggiori info</a></p>
+          </div>
+        </div>
+        
+      </div>
 
     </footer>
 </body>
